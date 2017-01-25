@@ -1,0 +1,5 @@
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Domain\bin\Debug\Parte02.WCF.Domain.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Domain\bin\Debug\Parte02.WCF.Domain.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Domain\obj\Debug\Parte02.WCF.Domain.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Domain\obj\Debug\Parte02.WCF.Domain.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Domain\obj\Debug\Parte02.WCF.Domain.csprojResolveAssemblyReference.cache

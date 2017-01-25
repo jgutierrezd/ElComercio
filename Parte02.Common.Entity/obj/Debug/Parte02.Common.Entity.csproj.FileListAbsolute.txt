@@ -1,0 +1,5 @@
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Entity\bin\Debug\Parte02.Common.Entity.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Entity\bin\Debug\Parte02.Common.Entity.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Entity\obj\Debug\Parte02.Common.Entity.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Entity\obj\Debug\Parte02.Common.Entity.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Entity\obj\Debug\Parte02.Common.Entity.csprojResolveAssemblyReference.cache

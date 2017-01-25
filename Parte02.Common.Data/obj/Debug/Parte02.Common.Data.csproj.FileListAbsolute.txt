@@ -1,0 +1,9 @@
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\bin\Debug\Parte02.Common.Data.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\bin\Debug\Parte02.Common.Data.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\obj\Debug\Parte02.Common.Data.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\obj\Debug\Parte02.Common.Data.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\bin\Debug\Parte02.Common.Entity.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\bin\Debug\Parte02.Common.Entity.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\obj\Debug\Parte02.Common.Data.csprojResolveAssemblyReference.cache
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\bin\Debug\Newtonsoft.Json.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.Common.Data\bin\Debug\Newtonsoft.Json.xml

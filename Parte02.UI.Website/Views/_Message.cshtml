@@ -1,0 +1,48 @@
+﻿@model Parte02.UI.Model.Base
+@{
+    var mensajeExito = !string.IsNullOrEmpty(Model.Mensaje) ? Model.Mensaje : "Se registró correctamente la información.";
+    var mensajeError = !string.IsNullOrEmpty(Model.Mensaje) ? Model.Mensaje : "No se pudo registrar la información.";
+    var mensajeValidacion = !string.IsNullOrEmpty(Model.Mensaje) ? Model.Mensaje : "";
+}
+<div class="row msg-summary">
+    <div class="col-lg-10 col-md-11 col-xs-12 notpadding">
+        @if (Model != null && Model.PostBack && Model.AccionCorrecta && Model.ModeloCorrecto)
+        {
+            <div class="alert alert-success alert-dismissible clearfix" role="alert">
+                <strong>Exito</strong>&nbsp;@mensajeExito
+
+                @if (Model.BotonRetorno)
+                {
+                    <button type="button" class="btn btn-default pull-right slt-margin" onclick="window.location.href='@Model.RutaRetorno';"><i class="fa fa-fw fa-reply"></i>&nbsp;Volver</button>
+                    
+                }
+                else
+                {
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+                }
+            </div>
+        }
+        @if (Model != null && !Model.AccionCorrecta)
+        {
+            <div class="alert alert-danger alert-dismissible clearfix" role="alert">
+                <strong>Error</strong>&nbsp;@mensajeError
+                @if (Model.BotonRetorno)
+                {
+                    <button type="button" class="btn btn-default pull-right" onclick="window.location.href='@Model.RutaRetorno';"><i class="fa fa-fw fa-reply"></i>&nbsp;Volver</button>
+                }
+                else
+                {
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+                }
+            </div>
+        }
+        @if (Model != null && Model.PostBack && !Model.ModeloCorrecto && Model.AccionCorrecta)
+        {
+            <div class="alert alert-warning alert-dismissible clearfix" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+                <strong>Error</strong>&nbsp;@mensajeValidacion
+                @Html.ValidationSummary()
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,65 @@
+﻿@model Parte02.UI.Model.BancoListaViewModel
+@{
+    ViewBag.Title = "Lista";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+<section class="content">
+    <div class="row divSltMarg slt-solic">
+        <div class="col-lg-8 col-md-8 col-xs-9">
+            <div class="form-group clearfix">
+                <label class="control-label">Nombre</label>
+                <div class="col-xs-7">
+                    @Html.TextBoxFor(m => m.Filtro, new { id = "txtBusqueda", @class = "form-control" })
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" id="btnBusqueda" class="btn-info btn"><i class="fa fa-search fa-fw"></i>Buscar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-3">
+            <div class="form-group text-right">
+                <div class="btn-group">
+                    <button id="btnAgregar" type="button" class="btn-success btn" onclick="window.location.href = '@Url.Action("Detalle")'; ">
+                        <i class="fa fa-plus fa-fw"></i>Agregar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row snmargin">
+        <div class="box box-primary">
+            <div class="box-body">
+                <table class="table table-bordered table-striped dataTable">
+                    <thead>
+                        <tr>
+                            <th>Identificador</th>
+                            <th>Nombre</th>
+                            <th>Direccion</th>
+                            <th>FechaCreacion</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Bancos)
+                        {
+                            <tr>
+                                <td>@item.Identificador</td>
+                                <td>@item.Nombre</td>
+                                <td>@item.Direccion</td>
+                                <td>@item.FechaRegistro</td>
+                                <td><a href="@Url.Action("Detalle", new { dd = item.Identificador })"><i class="fa fa-edit fa-fw"></i>Editar</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot style='display: @(Model.Bancos.ToList().Count > 0 ? "none" : "table-footer-group")'>
+                        <tr>
+                            <td colspan="5">No existen registros</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

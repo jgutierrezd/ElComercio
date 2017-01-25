@@ -1,0 +1,11 @@
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Parte02.UI.Domain.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Parte02.UI.Domain.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Parte02.Common.Data.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Parte02.Common.Entity.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Parte02.Common.Data.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Parte02.Common.Entity.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\obj\Debug\Parte02.UI.Domain.csprojResolveAssemblyReference.cache
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\obj\Debug\Parte02.UI.Domain.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\obj\Debug\Parte02.UI.Domain.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Newtonsoft.Json.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.UI.Domain\bin\Debug\Newtonsoft.Json.xml

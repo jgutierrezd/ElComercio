@@ -1,0 +1,5 @@
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Service\bin\Parte02.WCF.Service.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Service\bin\Parte02.WCF.Service.pdb
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Service\obj\Debug\Parte02.WCF.Service.csprojResolveAssemblyReference.cache
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Service\obj\Debug\Parte02.WCF.Service.dll
+c:\users\jorge\documents\visual studio 2012\Projects\ExamenComercio\Parte02.WCF.Service\obj\Debug\Parte02.WCF.Service.pdb

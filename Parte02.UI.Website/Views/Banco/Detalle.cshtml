@@ -1,0 +1,45 @@
+﻿@model Parte02.UI.Model.BancoDetalleViewModel
+@{
+    ViewBag.Title = "Detalle";
+    Layout = "~/Views/_Layout.cshtml";
+    var actionName = ViewContext.RouteData.Values["action"] as string;
+    var controllerName = ViewContext.RouteData.Values["controller"] as string;
+}
+
+<h2>Detalle</h2>
+@Html.Partial("~/Views/_Message.cshtml", Model)
+<section class="content">
+    <div class="row snmargin">
+        <section class="col-lg-10 col-md-11 col-xs-12 notpadding">
+            <div class="box box-primary form-horizontal">
+                <div class="box-header">
+                    <h3 class="box-title"><i class="fa fa-building-o"></i>Banco</h3>
+                </div>
+                @using (Html.BeginForm(actionName, controllerName, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.HiddenFor(m => m.Identificador)
+                    <div class="box-body">
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Nombre, new { @class = "col-md-3 col-sm-3 control-label" })
+                            <div class="col-md-6 col-sm-8">@Html.TextBoxFor(model => model.Nombre, new { Class = "form-control input-sm", maxlength = 100 })</div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Direccion, new { @class = "col-md-3 col-sm-3 control-label" })
+                            <div class="col-md-6 col-sm-8">@Html.TextBoxFor(model => model.Direccion, new { Class = "form-control input-sm", maxlength = 100 })</div>
+                        </div>
+                    </div>
+                    <div class="box-footer clearfix">
+                        @if (Model != null && (!Model.PostBack || (Model.PostBack && !Model.ModeloCorrecto)))
+                        {
+                            <div class="pull-right">
+                                <button id="btnSolicitar" class="btn btn-primary" data-loading-text="Grabando .."><i class="fa fa-fw fa-file-text-o"></i>Grabar</button>
+                                <button id="btnCancelar" data-loading-text="Cancelando .." type="button" class="btn btn-default margRight" onclick="window.location.href = '@Model.RutaRetorno'; "><i class="fa fa-fw fa-times-circle"></i>Cancelar</button>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </section>
+    </div>
+</section>
